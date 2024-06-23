@@ -1,6 +1,6 @@
 # cloudflare-docker-proxy
 
-![deploy](https://github.com/gzstyp/cloudflare-docker/actions/workflows/deploy.yaml/badge.svg)
+![deploy](https://github.com/ciiiii/cloudflare-docker-proxy/actions/workflows/deploy.yaml/badge.svg)
 
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/gzstyp/cloudflare-docker)
 
@@ -30,10 +30,10 @@ const routes = {
 - add more records and modify the config as you need
 ```javascript
 const routes = {
-"docker.libcuda.so": "https://registry-1.docker.io",
-"quay.libcuda.so": "https://quay.io",
-"gcr.libcuda.so": "https://k8s.gcr.io",
-"k8s-gcr.libcuda.so": "https://k8s.gcr.io",
-"ghcr.libcuda.so": "https://ghcr.io",
+"docker.lilf.top": "https://registry-1.docker.io",
+"quay.lilf.top": "https://quay.io",
+"gcr.lilf.top": "https://k8s.gcr.io",
+"k8s-gcr.lilf.top": "https://k8s.gcr.io",
+"ghcr.lilf.top": "https://ghcr.io",
 };
 ```
